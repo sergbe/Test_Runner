@@ -1,0 +1,217 @@
+Last login: Mon Mar 28 23:29:12 on ttys003
+/Users/Serg/Workspace/Test_Runner/Test_Runner ; exit;
+Sergs-Pro:~ Serg$ /Users/Serg/Workspace/Test_Runner/Test_Runner ; exit;
+java "1.8.0_66"
+Maven 3.3.9
+git 2.4.3
+Cloning into 'Title_Validation_CSV'...
+remote: Counting objects: 116, done.
+remote: Compressing objects: 100% (58/58), done.
+remote: Total 116 (delta 45), reused 116 (delta 45), pack-reused 0
+Receiving objects: 100% (116/116), 16.81 MiB | 6.55 MiB/s, done.
+Resolving deltas: 100% (45/45), done.
+Checking connectivity... done.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Title_Validation_CSV 1.1
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Title_Validation_CSV ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Title_Validation_CSV ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Title_Validation_CSV ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Serg/Workspace/Title_Validation_CSV/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Title_Validation_CSV ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/Serg/Workspace/Title_Validation_CSV/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Title_Validation_CSV ---
+[INFO] Surefire report directory: /Users/Serg/Workspace/Title_Validation_CSV/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Title_Validation_CSV ---
+[INFO] 
+[INFO] --- maven-assembly-plugin:2.4:single (assemble-all) @ Title_Validation_CSV ---
+[INFO] Building jar: /Users/Serg/Workspace/Title_Validation_CSV/target/Title_Validation_CSV-1.1-jar-with-dependencies.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.967 s
+[INFO] Finished at: 2016-03-28T23:32:24-07:00
+[INFO] Final Memory: 28M/517M
+[INFO] ------------------------------------------------------------------------
+Executing Java programm ...
+
+Test Case ID: 		TC-001.01
+URL: 			http://www.learn2test.net
+Title Expected: 	learn2test.net
+Title Actual: 		learn2test.net
+Test Case Result: 	PASSED
+
+Test Case ID: 		TC-001.02
+URL: 			http://www.alegro.com
+Title Expected: 	www.alegro.com
+Title Actual: 		www.alegro.com
+Test Case Result: 	PASSED
+
+Test Case ID: 		TC-001.03
+URL: 			http://www.alegro.net
+Title Expected: 	www.alegro.net
+Title Actual: 		alegro.net - This website is for sale! - alegro Resources and Information.
+Test Case Result: 	FAILED
+
+Test Case ID: 		TC-001.04
+URL: 			http://www.learn2test.net
+Title Expected: 	learn2test.net
+Title Actual: 		learn2test.net
+Test Case Result: 	PASSED
+
+Test Case ID: 		TC-001.05
+URL: 			http://www.alegro.com
+Title Expected: 	www.alegro.com
+Title Actual: 		www.alegro.com
+Test Case Result: 	PASSED
+
+Test Case ID: 		TC-001.06
+URL: 			http://www.alegro.net
+Title Expected: 	www.alegro.net
+Title Actual: 		alegro.net - This website is for sale! - alegro Resources and Information.
+Test Case Result: 	FAILED
+
+Test Case ID: 		TC-001.07
+URL: 			http://www.learn2test.net
+Title Expected: 	learn2test.net
+Title Actual: 		learn2test.net
+Test Case Result: 	PASSED
+
+Test Case ID: 		TC-001.08
+URL: 			http://www.alegro.com
+Title Expected: 	www.alegro.coma
+Title Actual: 		www.alegro.com
+Test Case Result: 	FAILED
+
+Test Case ID: 		TC-001.09
+URL: 			http://www.alegro.net
+Title Expected: 	www.alegro.net
+Title Actual: 		alegro.net
+Test Case Result: 	FAILED
+
+Test Case ID: 		TC-001.10
+URL: 			http://www.learn2test.net
+Title Expected: 	learn2test.net
+Title Actual: 		learn2test.net
+Test Case Result: 	PASSED
+
+Test Case ID: 		TC-001.11
+URL: 			http://www.alegro.com
+Title Expected: 	www.alegro.com
+Title Actual: 		www.alegro.com
+Test Case Result: 	PASSED
+
+Test Case ID: 		TC-001.12
+URL: 			http://www.alegro.net
+Title Expected: 	www.alegro.net
+Title Actual: 		alegro.net
+Test Case Result: 	FAILED
+
+Test Case ID: 		TC-001.13
+URL: 			http://www.learn2test.net
+Title Expected: 	learn2test.net
+Title Actual: 		learn2test.net
+Test Case Result: 	PASSED
+
+Test Case ID: 		TC-001.14
+URL: 			http://www.alegro.com
+Title Expected: 	www.alegro.com
+Title Actual: 		www.alegro.com
+Test Case Result: 	PASSED
+
+Test Case ID: 		TC-001.15
+URL: 			http://www.alegro.net
+Title Expected: 	www.alegro.neta
+Title Actual: 		alegro.net
+Test Case Result: 	FAILED
+
+Test Case ID: 		TC-001.16
+URL: 			http://www.learn2test.net
+Title Expected: 	learn2test.net
+Title Actual: 		learn2test.net
+Test Case Result: 	PASSED
+
+Test Case ID: 		TC-001.17
+URL: 			http://www.alegro.com
+Title Expected: 	www.alegro.com
+Title Actual: 		www.alegro.com
+Test Case Result: 	PASSED
+
+Test Case ID: 		TC-001.18
+URL: 			http://www.alegro.net
+Title Expected: 	www.alegro.net2
+Title Actual: 		Alegro.net
+Test Case Result: 	FAILED
+
+Test Case ID: 		TC-001.19
+URL: 			http://www.alegro.com
+Title Expected: 	www.alegro.com
+Title Actual: 		www.alegro.com
+Test Case Result: 	PASSED
+
+Test Case ID: 		TC-001.20
+URL: 			http://www.alegro.net
+Title Expected: 	www.alegro.net
+Title Actual: 		alegro.net
+Test Case Result: 	FAILED
+
+Test Case ID: 		TC-001.21
+URL: 			http://www.learn2test.net
+Title Expected: 	learn2test.net
+Title Actual: 		learn2test.net
+Test Case Result: 	PASSED
+
+Test Case ID: 		TC-001.22
+URL: 			http://www.alegro.com
+Title Expected: 	www.alegro.com
+Title Actual: 		www.alegro.com
+Test Case Result: 	PASSED
+
+Test Case ID: 		TC-001.23
+URL: 			http://www.alegro.net
+Title Expected: 	www.alegro.net
+Title Actual: 		alegro.net - This website is for sale! - alegro Resources and Information.
+Test Case Result: 	FAILED
+
+Test Case ID: 		TC-001.24
+URL: 			http://www.learn2test.net
+Title Expected: 	blah
+Title Actual: 		learn2test.net
+Test Case Result: 	FAILED
+
+Test Case ID: 		TC-001.25
+URL: 			http://www.alegro.com
+Title Expected: 	www.alegro.com
+Title Actual: 		www.alegro.com
+Test Case Result: 	PASSED
+logout
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+Deleting expired sessions...121 completed.
+
+[Process completed]
+
